@@ -8,6 +8,15 @@ public class Lesson_1_13 {
             squareArray[i][n - 1 - i] = 1;
             squareArray[i][i] = 1;
         }
-        System.out.println(squareArray[0][24]);
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(squareArray[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }
+
+
+
+

@@ -7,9 +7,8 @@ public class Lesson_1_12 {
             if (numbers[i] < 6)
                 numbers[i] = numbers[i] * 2;
         }
-
-
-
-        System.out.println(numbers[0]);
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + " ");
+        }
     }
 }

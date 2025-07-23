@@ -7,14 +7,10 @@ public class Lesson_1_10 {
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] == 0) {
                 numbers[i] = 1;
-            }
-            else numbers[i] = 0;
+            } else numbers[i] = 0;
         }
         for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i] + " ");
         }
-
-
     }
-
 }

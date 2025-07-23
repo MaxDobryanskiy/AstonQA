@@ -1,3 +1,5 @@
+package HW2;
+
 public class Lesson_1_4 {
     public static void main(String[] args) {
         compareNumbers();
@@ -6,10 +8,9 @@ public class Lesson_1_4 {
     public static void compareNumbers() {
         int a = 12;
         int b = 12;
-        if (a >= b){
+        if (a >= b)
             System.out.println("a >= b");
-        } else {
+        else
             System.out.println("a < b");
-        }
     }
 }

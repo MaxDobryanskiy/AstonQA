@@ -22,10 +22,13 @@ public class Product {
                 "Страна: " + country + "\n" +
                 "Цена: " + price + "\n" +
                 "Бронирование: " + reservation;
-    }
+            }
+
     public static void main(String[] args) {
         Product product1 = new Product("Чупа чупс","29.07.2025","ОАО Сосалити","Беларусь",255,true);
+
         System.out.println(product1);
+
 
         Product[]productsArray = new Product[5];
         productsArray[0] = new Product("Samsung S25 Ultra", "01.02.2025",
@@ -44,5 +47,4 @@ public class Product {
 
                 "Samsung Corp.", "Korea", 5123, true);
     }
-
 }
